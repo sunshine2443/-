@@ -1,6 +1,6 @@
 //#include<stdio.h>
 //#include<string.h>
-////main()
+////main()\\输入三个字符串按由大到小顺序输出
 ////{	char str[3][20],*pstr0,*pstr1,*pstr2;
 ////	int i;
 ////	printf("Please enter three strings:\n");
@@ -32,7 +32,7 @@
 ////	puts(pstr1);
 ////	puts(pstr2);
 ////}
-////main()
+////main()\\输入两个字符串并能输出最长的公共子串
 ////{	char str[2][20],substr[20],*pstr;
 ////	int i,j;
 ////	for(i=0;i<2;i++)
@@ -51,7 +51,7 @@
 ////	puts(substr);
 ////
 ////}
-////main()
+////main()\\输入一个字符串并统计字符串中每个字符出现的次数
 ////{	char str[40];
 ////	char *chr,*pstr;
 ////	int sum,n;
@@ -73,7 +73,7 @@
 ////
 ////	}
 ////   return 0;
-#include<stdio.h>
+#include<stdio.h>\\输入一个字符串把该字符串的前三个字母移到最后并输出变化后的字符串
 #include<string.h>
 int main()
 {	void moveone(char*);
