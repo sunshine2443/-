@@ -10,7 +10,7 @@ int main()
 					printf("%d%d%d\t", i, j, k);
 					if (++n % 5 == 0)printf("\n");
 				}
-	printf("\n¹²ÓĞ£º%d\n", n);
+	printf("\nÂ¹Â²Ã“ÃÂ£Âº%d\n", n);
 	return 0;
 }
 
