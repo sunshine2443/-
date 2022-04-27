@@ -1,5 +1,5 @@
 //#include<stdio.h>
-//int main()
+//int main() \\è¾“å‡ºæ•°ç»„
 //{
 //	int i,j,a[3][3] = {1,2,3,4,5,6,7,8,9};
 //	for(i =0;i<=2;i++)
@@ -12,20 +12,20 @@
 //}
 #include<stdio.h>
 #include<string.h>
-int main()
+int main()  \\åˆ¤æ–­ä¸€ä¸ªå­—ç¬¦ä¸²æ˜¯å¦ä¸ºå›æ–‡ä¸²
 {
 	char s[10];
 	int i, j, n;
-	printf("ÇëÊäÈëÒ»´®×Ö·û;\n");
+	printf("è¯·è¾“å…¥ä¸€ä¸²å­—ç¬¦;\n");
 	gets(s);
 	n = strlen(s);
 	for (i = 0, j = n - 1; i < j; i++, j--)
 		if (s[i] != s[j])
 			break;
 	if (i < j)
-		printf("²»ÊÇ»ØÎÄ´®\n");
+		printf("ä¸æ˜¯å›æ–‡ä¸²\n");
 	else
-		printf("ÊÇ»ØÎÄ´®\n");
+		printf("æ˜¯å›æ–‡ä¸²\n");
 	return 0;
 
 }
